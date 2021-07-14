@@ -60,7 +60,7 @@
 
 7. `git commit`
 
-8. `git branch -M main (only if default branch name is master)
+8. `git branch -M main (only if default branch name is master)`
 
 9. `git push -u origin main` (local repo와 remote repo가 같다고 알려주는 것)
 
