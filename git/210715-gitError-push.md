@@ -16,6 +16,14 @@
 
 3. `git push origin main`
 
+### 원인2
+
+- 문제점 :  리모트에 로컬에 없는 사항이 들어 있으므로 업데이트가 거부되었습니다. 이 상황은 보통 또 다른 저장소에서 같은 저장소로 푸시할 때 발생합니다.  푸시하기 전에 ('git pull ...' 등 명령으로) 리모트 변경 사항을 먼저 포함해야 합니다.자세한 정보는 'git push --help'의 "Note about fast-forwards' 부분을참고하십시오.
+
+### 해결 방법
+
+- `git pull --rebase origin main`
+
 ### 결론
 
 - local repo와 remote repo가 일치하지 않아서 생긴 문제
