@@ -75,7 +75,7 @@ console.log(name);
 
 - 어떤 값을 반드시 반환(return)해야함
 
-- 함수임에도 numbers.sum()이 아닌 numbers.sum만 해도 조회가 가능하다
+- numbers.sum()이 아닌 numbers.sum만 해도 조회가 가능하다
 
 2. SETTER
 
@@ -83,7 +83,7 @@ console.log(name);
 
 	- 똑같은 이름의 getter와 setter 설정 가능
 
-	- GET함수만 사용되었을 경우 조회될 때마다 계산이 실행되고, GET과 SET 둘 다 존재하면 업데이트 될 때만 출력/계산됨
+	- GET만 사용되었을 경우 조회될 때마다 계산이 실행되고, GET과 SET 둘 다 존재하면 업데이트 될 때만 출력/계산됨
 
 ## Array (배열)
 
